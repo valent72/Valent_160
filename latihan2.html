@@ -1,123 +1,129 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tugas Praktikum 1</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: blue;
+        }
+
+        h4, h5 {
+            color: black;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th {
+            background-color: red;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            font-size: 18px;
+        }
+
+        td {
+            background-color: gold;
+            color : black;
+            padding: 10px;
+            text-align: center;
+            font-size: 14px;
+        }
+
+        th[colspan="13"] {
+            background-color: blue;
+        }
+        th, td {
+            border: 1px solid black;
+        }
+    </style>
 </head>
 <body>
-<h1>Jadwal Kuliah Mahasiswa USD TI</h1>
-<h4>Catatan :</h4>
-<h5>IMK : Interaksi Manusia Dan Komputer</h5>
-<h5>PBP : Pemrograman Berbasis Platform</h5>
-<h5>KPT : Komputasi Paralel Dan Terdistribusi</h5>
-<h5>PM  : Pembelajaran Mesin</h5>
-<h5>RPL : Rekayasa Perangkat Lunak</h5>
-<h5>ASA : Analisis Dan Strategi Algoritma</h5>
-<h5>PKN : Pendidikan Kewarganegaraan</h5>
-<h5>MI : Manajemen Informasi</h5>
+    <h1>Jadwal Kuliah Mahasiswa USD TI</h1>
+    <h4>Catatan :</h4>
+    <h5>IMK : Interaksi Manusia Dan Komputer</h5>
+    <h5>PBP : Pemrograman Berbasis Platform</h5>
+    <h5>KPT : Komputasi Paralel Dan Terdistribusi</h5>
+    <h5>PM  : Pembelajaran Mesin</h5>
+    <h5>RPL : Rekayasa Perangkat Lunak</h5>
+    <h5>ASA : Analisis Dan Strategi Algoritma</h5>
+    <h5>PKN : Pendidikan Kewarganegaraan</h5>
+    <h5>MI : Manajemen Informasi</h5>
 
-<table border="">
-    <tr>
-        <th bgcolor="red"colspan="13">Lihat Jadwal Kuliah Anda</th>
-    </tr>
-    <tr>
-        <td bgcolor="orange">Hari/Jam</td>
-        <td bgcolor="orange">06-07</td>
-        <td bgcolor="orange">07-08</td>
-        <td bgcolor="orange">08-09</td>
-        <td bgcolor="orange">09-10</td>
-        <td bgcolor="orange">10-11</td>
-        <td bgcolor="orange">11-12</td>
-        <td bgcolor="orange">12-13</td>
-        <td bgcolor="orange">13-14</td>
-        <td bgcolor="orange">14-15</td>
-        <td bgcolor="orange">15-16</td>
-        <td bgcolor="orange">16-17</td>
-        <td bgcolor="orange">17-18</td>
-    </tr>
-    <tr>
-        <td bgcolor="orange">Senin</td>
-        <td></td>
-        <td></td>
-        <td bgcolor="yellow">IMK D</td>
-        <td bgcolor="yellow">IMK D</td>
-        <td bgcolor="yellow">PBP E</td>
-        <td bgcolor="yellow">PBP E</td>
-        <td></td>
-        <td></td>
-        <td bgcolor="yellow">KPT C</td>
-        <td bgcolor="yellow">KPT C</td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td bgcolor="orange">Selasa</td>
-        <td></td>
-        <td></td>
-        <td bgcolor="yellow">PM D</td>
-        <td bgcolor="yellow">PM D</td>
-        <td bgcolor="yellow">RPL E</td>
-        <td bgcolor="yellow">RPL E</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td bgcolor="orange">Rabu</td>
-        <td></td>
-        <td bgcolor="yellow">ASA E</td>
-        <td bgcolor="yellow">ASA E</td>
-        <td bgcolor="yellow">ASA E</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td bgcolor="yellow">RPL EP</td>
-        <td bgcolor="yellow">RPL EP</td>
-        <td bgcolor="yellow">RPL EP</td>
-        <td bgcolor="yellow">PKN S</td>
-        <td bgcolor="yellow">PKN S</td>
-    </tr>
-    <tr>
-        <td bgcolor="orange">Kamis</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td bgcolor="yellow">PBP EP</td>
-        <td bgcolor="yellow">PBP EP</td>
-        <td bgcolor="yellow">PBP EP</td>
-        <td></td>
-        <td></td>
-        <td bgcolor="yellow">PM DP</td>
-        <td bgcolor="yellow">PM DP</td>
-        <td bgcolor="yellow">PM DP</td>
-    </tr>
-    <tr>
-        <td bgcolor="orange">Jumat</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td bgcolor="yellow">MI B</td>
-        <td bgcolor="yellow">MI B</td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-    <td bgcolor="orange">Sabtu</td>
-    <th bgcolor="yellow" colspan="12">LIBUR</td>
-    </tr>
-    <tr>
-        <td bgcolor="orange">Minggu</td>
-        <th bgcolor="yellow" colspan="12">LIBUR</td>
+    <table border="2">
+        <tr>
+            <th colspan="13">Lihat Jadwal Kuliah Anda</th>
         </tr>
-</table>
-
+        <tr>
+            <td>Hari/Jam</td>
+            <td>06-07</td>
+            <td>07-08</td>
+            <td>08-09</td>
+            <td>09-10</td>
+            <td>10-11</td>
+            <td>11-12</td>
+            <td>12-13</td>
+            <td>13-14</td>
+            <td>14-15</td>
+            <td>15-16</td>
+            <td>16-17</td>
+            <td>17-18</td>
+        </tr>
+        <tr>
+            <td>Senin</td>
+            <th colspan="2"></th>
+            <td colspan="2">IMK D</td>
+            <td colspan="2">PBP E</td>
+            <th colspan="2"></th>
+            <td colspan="2">KPT C</td>
+            <th colspan="2"></td>
+        </tr>
+        <tr>
+            <td>Selasa</td>
+            <th colspan="2"></th>
+            <td colspan="2">PM D</td>
+            <td colspan="2">RPL E</td>
+            <th colspan="6"></th>
+        </tr>
+        <tr>
+            <td>Rabu</td>
+            <th></td>
+            <td colspan="3">ASA E</td>
+            <th colspan="3"></th>
+            <td colspan="3">RPL EP</td>
+            <td colspan="2">PKN S</td>
+        </tr>
+        <tr>
+            <td>Kamis</td>
+            <th colspan="4"></th>
+            <td colspan="3">PBP EP</td>
+            <th colspan="2"></th>
+            <td colspan="3">PM DP</td>
+        </tr>
+        <tr>
+            <td>Jumat</td>
+            <th colspan="8"></th>
+            <td colspan="2">MI B</td>
+            <th colspan="2"></th>
+        </tr>
+        <tr>
+            <td>Sabtu</td>
+            <th colspan="12" rowspan="2">L  I   B   U   R</th>
+        </tr>
+        <tr>
+            <td>Minggu</td>
+        </tr>
+    </table>
 </body>
 </html>
